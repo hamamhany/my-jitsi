@@ -196,8 +196,8 @@
         window.addEventListener(
             'error', loadErrHandler, true /* capture phase type of listener */);
     </script>
-    <script><!--#include virtual="/config.js" --></script><!-- adapt to your needs, i.e. set hosts and bosh path -->
-    <script><!--#include virtual="/interface_config.js" --></script>
+    <script src="/config.js"></script><!-- adapt to your needs, i.e. set hosts and bosh path -->
+    <script src="/interface_config.js"></script>
     <!-- Starts downloading config.js (when not inlined) and the dynamic branding before the app bundle. Optional. -->
     <script src="libs/preload.min.js?v=139"></script>
     <script src="libs/lib-jitsi-meet.min.js?v=139"></script>
